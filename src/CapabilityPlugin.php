@@ -1,12 +1,12 @@
 <?php
 
-namespace Liberu\Presentation\BoilerplateFilament;
+namespace Liberu\Presentation\Capability56c9472d6c0a;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
 /** Explicit panel extension point; no capabilities are implemented by the skeleton. */
-final class BoilerplatePlugin implements Plugin
+final class CapabilityPlugin implements Plugin
 {
     public static function make(): self
     {
@@ -15,7 +15,7 @@ final class BoilerplatePlugin implements Plugin
 
     public function getId(): string
     {
-        return 'liberu-boilerplate-filament';
+        return 'module-planned-liberu-business-workflow-reconciliation-c7cb9c4f-filament';
     }
 
     public function register(Panel $panel): void

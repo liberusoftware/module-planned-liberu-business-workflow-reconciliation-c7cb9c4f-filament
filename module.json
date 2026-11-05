@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.liberu.dev/module/v1.json",
+  "name": "planned-liberu-business-workflow-reconciliation-c7cb9c4f-filament",
+  "display_name": "Business Workflow Reconciliation",
+  "description": "Business Workflow Reconciliation Filament presentation module skeleton",
+  "version": "0.1.0-alpha.0",
+  "category": "presentation",
+  "provider": "Liberu\\Presentation\\Capability56c9472d6c0a\\CapabilityServiceProvider",
+  "requires": {
+    "php": "^8.5",
+    "laravel": "^13.0",
+    "packages": {},
+    "capabilities": []
+  },
+  "presentation": {
+    "filament": {
+      "admin": [
+        "Liberu\\Presentation\\Capability56c9472d6c0a\\CapabilityPlugin"
+      ]
+    }
+  },
+  "capabilities": [],
+  "features": [
+    "Filament package extension entry (skeleton)"
+  ],
+  "default_enabled": false
+}
